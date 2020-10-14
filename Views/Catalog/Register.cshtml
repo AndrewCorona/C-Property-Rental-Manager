@@ -1,0 +1,77 @@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<form>
+  <div class="form-group row">
+    <label for="RentalTitle" class="col-4 col-form-label">Title of Home</label> 
+    <div class="col-8">
+      <input id="RentalTitle" name="RentalTitle" placeholder="Beautiful Ocean Condo" type="text" class="form-control control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="RentalBeds" class="col-4 col-form-label">Bedrooms</label> 
+    <div class="col-8">
+      <input id="RentalBeds" name="RentalBeds" placeholder="3" type="text" class="form-control control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="RentalBathrooms" class="col-4 col-form-label">Bathrooms</label> 
+    <div class="col-8">
+      <input id="RentalBathrooms" name="RentalBathrooms" placeholder="1.5" type="text" class="form-control control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="RentalPrice" class="col-4 col-form-label">Price</label> 
+    <div class="col-8">
+      <input id="RentalPrice" name="RentalPrice" placeholder="$1400/m" type="text" class="form-control control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="RentalArea" class="col-4 col-form-label">Area (Sq. Ft)</label> 
+    <div class="col-8">
+      <input id="RentalArea" name="RentalArea" placeholder="2,500sq ft" type="text" class="form-control control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="RentalImage" class="col-4 col-form-label">Image URL</label> 
+    <div class="col-8">
+      <input id="RentalImage" name="RentalImage" placeholder="https://imgur.com/D32kmd" type="text" class="form-control control">
+    </div>
+  </div>
+  <div class="form-group row">
+    <label for="RentalDescription" class="col-4 col-form-label">Description</label> 
+    <div class="col-8">
+      <textarea id="RentalDescription" name="RentalDescription" cols="40" rows="3" class="form-control control"></textarea>
+    </div>
+  </div>
+  <div class="form-group row">
+    <label class="col-4">Parking Included?</label> 
+    <div class="col-8">
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="RentalParking" id="RentalParking_0" type="radio" class="custom-control-input control" value="Yes"> 
+        <label for="RentalParking_0" class="custom-control-label">Yes</label>
+      </div>
+      <div class="custom-control custom-radio custom-control-inline">
+        <input name="RentalParking" id="RentalParking_1" type="radio" class="custom-control-input control" value="No"> 
+        <label for="RentalParking_1" class="custom-control-label">No</label>
+      </div>
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="offset-4 col-8">
+      <button name="btnSave" type="Button" class="btn btn-primary" id="btnSave">Save</button>
+    </div>
+  </div>
+</form>
+
+@section Scripts{
+    <script src="/js/register.js"></script>
+    <script src="/js/PropertyLists.js"></script>
+}
+
+
+

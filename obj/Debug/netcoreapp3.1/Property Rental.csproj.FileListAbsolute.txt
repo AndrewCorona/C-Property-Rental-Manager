@@ -1,0 +1,40 @@
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\Property Rental.exe
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\Property Rental.deps.json
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\Property Rental.runtimeconfig.json
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\Property Rental.runtimeconfig.dev.json
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\Property Rental.dll
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\Property Rental.pdb
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\Property Rental.Views.dll
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\bin\Debug\netcoreapp3.1\Property Rental.Views.pdb
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.csprojAssemblyReference.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.AssemblyInfoInputs.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.AssemblyInfo.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.csproj.CoreCompileInputs.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.RazorAssemblyInfo.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.RazorAssemblyInfo.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.TagHelpers.input.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.TagHelpers.output.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.RazorCoreGenerate.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.RazorTargetAssemblyInfo.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.RazorTargetAssemblyInfo.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.Views.pdb
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\staticwebassets\Property Rental.StaticWebAssets.Manifest.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\staticwebassets\Property Rental.StaticWebAssets.xml
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.dll
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.pdb
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.genruntimeconfig.cache
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Property Rental.csproj.CopyComplete
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\Andrew\Documents\Coding\101\Unit 7 Intro to Asp.net Core\Property Rental\obj\Debug\netcoreapp3.1\Razor\Views\Catalog\Register.cshtml.g.cs
