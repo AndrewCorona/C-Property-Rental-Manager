@@ -1,7 +1,8 @@
 class Property{
 
-    constructor(Title, Bedrooms, Bathrooms, Price, Area, URLImage, Description, Parking){
+    constructor(Title, Location, Bedrooms, Bathrooms, Price, Area, URLImage, Description, Parking){
         this.Title=Title;
+        this.Location=Location
         this.Bedrooms=Bedrooms;
         this.Bathrooms=Bathrooms;
         this.Price=Price;

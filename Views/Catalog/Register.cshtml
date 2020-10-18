@@ -5,11 +5,37 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<div id="hideAlert" class="alert alert-success hide">
+  Property Information has been saved
+</div>
+<div id="hideAlert2" class="alert alert-danger hide">
+  Property was not saved due to an error
+</div>
+
+<div id="alertError" class="alert alert-danger hide">
+  Please verify your data entered into the Price field
+</div>
+<div id="alertError2" class="alert alert-danger hide">
+  Please verify your data entered into the Bedrooms field
+</div>
+<div id="alertError3" class="alert alert-danger hide">
+  Please verify your data entered into the Bathrooms field
+</div>
+<div id="alertError4" class="alert alert-danger hide">
+  Please verify your data entered into the Area field
+</div>
+
 <form>
   <div class="form-group row">
     <label for="RentalTitle" class="col-4 col-form-label">Title of Home</label> 
     <div class="col-8">
       <input id="RentalTitle" name="RentalTitle" placeholder="Beautiful Ocean Condo" type="text" class="form-control control">
+    </div>
+  </div>
+    <div class="form-group row">
+    <label for="RentalLocation" class="col-4 col-form-label">Location</label> 
+    <div class="col-8">
+      <input id="RentalLocation" name="RentalLocation" placeholder="Oceanside, California" type="text" class="form-control control">
     </div>
   </div>
   <div class="form-group row">

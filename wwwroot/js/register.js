@@ -5,6 +5,7 @@ function saveProperty() {
 
     //get values into vars
     var Title = UI.RTitle.val();
+    var Location = UI.RLocation.val();
     var Bedrooms = parseInt(UI.RBeds.val());
     var Bathrooms = parseInt(UI.RBathrooms.val());
     var Price = parseFloat(UI.RPrice.val());
@@ -14,38 +15,54 @@ function saveProperty() {
     var Parking = UI.RParking.is(":checked");
     //data validations ***HOMEWORK*** make a nice one!
     if(!Price){ //if the price is: empty, 0, false, NaN
-        alert("Error, verify the input on your Price input")
+        $("#alertError").removeClass('hide');
+
+        setTimeout( () => {$("#alertError").addClass('hide');} ,3000);
+
         return; //return means done, leave the function
     }
     if(!Bedrooms){
-        alert("Error, verify the input on your Bedrooms input")
+        $("#alertError2").removeClass('hide');
+
+        setTimeout( () => {$("#alertError2").addClass('hide');} ,3000);
         return;
     }
     if(!Bathrooms){
-        alert("Error, verify the input on your Bathrooms input")
+        $("#alertError3").removeClass('hide');
+
+        setTimeout( () => {$("#alertError3").addClass('hide');} ,3000);
         return;
     }
     if(!Area){
-        alert("Error, verify the input on your Area input")
+        $("#alertError4").removeClass('hide');
+
+        setTimeout( () => {$("#alertError4").addClass('hide');} ,3000);
         return;
     }
     //create an object
-    var property = new Property(Title,Bedrooms,Bathrooms,Price,Area,URLImage,Description,Parking);
+    var property = new Property(Title,Location,Bedrooms,Bathrooms,Price,Area,URLImage,Description,Parking);
     console.log(property);
     PropertyList.push(property);
     //clear the form
     clearForm();
-    //send the object to BE
+    //send the object to BE ***HOMEWORK*** create some sort of error/success notification that stuff got PUSHed correctly
     $.ajax({
         url: "/catalog/SaveProperty",
         type: "POST",
         data: JSON.stringify(property),
         contentType: "application/json",
-        success: (res) => {
+        success: function(res){
             console.log(res);
+            $("#hideAlert").removeClass("hide");
+            setTimeout(function(){
+                $("#hideAlert").addClass("hide");  
+            },3000);
         },
-        error: (details) =>{
-            console.log("Error", details);
+        error: function(){
+            $("#hideAlert2").removeClass("hide");
+            setTimeout(function(){
+                $("#hideAlert2").addClass("hide");  
+            },3000);
         }
     });
 }
@@ -60,6 +77,7 @@ function init(){
 
     UI = {
         RTitle: $('#RentalTitle'),
+        RLocation: $("#RentalLocation"),
         RBeds: $('#RentalBeds'),
         RBathrooms: $('#RentalBathrooms'),
         RPrice: $('#RentalPrice'),

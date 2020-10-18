@@ -14417,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Andrew\\Documents\\Coding\\101\\Unit 7 Intro to Asp.net Core\\Property Rental\\Views\\Catalog\\Index.cshtml",
+      "TargetPath": "Views\\Catalog\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Andrew\\Documents\\Coding\\101\\Unit 7 Intro to Asp.net Core\\Property Rental\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
