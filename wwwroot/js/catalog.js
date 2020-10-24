@@ -15,16 +15,33 @@ function fetchData(){
     });
 }
 
+
+
 function displayProperty(property){
     //create the syntax
-    var syntax = 
+    const yesparkingicon = '<i class="fas fa-parking"></i>';
+    const noparkingicon = '<i class="fas fa-parking"></i>';
 
-`<div class="card" style="width:32rem;">
-  <img src='${property.urlImage}' class="card-img-top" alt="image of home" width="531" height="350">
- 
-    <h5 class="card-title"> <a href="#">${property.title}</a></h5>
+
+      if (property.parking === "true") {
+        parkingicon = yesparkingicon;
+      }
+    else {
+      parkingicon = noparkingicon;
+    }
+    var syntax =
+
+
+`<div class="card">
+  <img src='${property.urlImage}' class="card-img-top" alt="image of home">
+  <div class="detailslist">
+  <div class="detailsitem1"><i class="fas fa-users"></i>${property.bedrooms*2}</div>
+  <div class="detailsitem2"><i class="fas fa-bed"></i>${property.bedrooms}</div>
+  <div class="detailsitem3"><i class="fas fa-sink"></i>${property.bathrooms}</div>
+  </div>
+    <h5 class="card-title"> <a href="#">${property.title}, ${parkingicon}</a></h5>
     <class="card-location">${property.location}
-    <p class="card-text">from <strong>$${property.price}</strong> /night</p>
+    <p class="card-text">listed<strong>$${property.price}</strong> /night</p>
   </div>
 
 </div>`;
@@ -34,10 +51,11 @@ function displayProperty(property){
 
     //append syntax to container
     container.append(syntax);
-}
+  };
+
 
 function testDelete() {
-    var id = 1;
+    var id = 6;
 
     $.ajax({
       url: "/catalog/DeleteProperty/" + id,
